@@ -11,11 +11,13 @@
 
     <!-- Navbar -->
     <header class="navbar">
+        
         <h1 class="logo">FlowCash</h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#how-it-works">How It Works</a></li>
+                
                 <li><a href="#why-choose">Why Choose Us?</a></li>
                 <li><a href="#screenshots">Screenshots</a></li>
                 <li><a href="#download">Download</a></li>
@@ -51,9 +53,10 @@
 
     <!-- About Section -->
     <section id="about" class="section">
-        <h2 class="fade-up" style="padding-bottom: 16px;">What is FlowCash?</h2>
-        <p class="fade-up" style="padding-bottom: 16px;">FlowCash is a next-gen cashback platform where users earn money by shopping from brands like Amazon, Flipkart, and more.</p>
-        <p class="fade-up">With FlowCash, you get exclusive deals and extra cashback on every purchase. Our seamless interface ensures that you never miss out on any savings.</p>
+        <h2 class="fade-up" style="padding-bottom: 24px;" >What is FlowCash?</h2>
+        <img src="shopin.png" alt="Screenshot 1" style="width: 300px; height: auto;" style="padding-bottom: 24px;" class="fade-up">
+        <h3 class="fade-up" style="padding-bottom: 16px;">FlowCash is a next-gen cashback platform where users earn money by shopping from brands like Amazon, Flipkart, and more.</h3>
+        <h3 class="fade-up">With FlowCash, you get exclusive deals and extra cashback on every purchase. Our seamless interface ensures that you never miss out on any savings.</h3>
     </section>
 
     <!-- How It Works -->
@@ -63,19 +66,21 @@
             <div class="step fade-up" >
                 <h3>1. Browse Offers</h3>
                 
-                <p>Explore a variety of exclusive cashback deals and discounts.</p>
+                <h3>Explore a variety of exclusive cashback deals and discounts.</h3>
             </div>
             <div class="step fade-up">
                 <h3>2. Shop & Pay</h3>
-                <p>Click on our special links to shop and complete your payment.</p>
+                
+                <h3>Click on our special links to shop and complete your payment.</h3>
             </div>
             <div class="step fade-up">
                 <h3>3. Earn Cashback</h3>
-                <p>Once your purchase is verified, cashback is added to your wallet.</p>
+                <h3>Once your purchase is verified, cashback is added to your wallet.</h3>
             </div>
             <div class="step fade-up">
                 <h3>4. Withdraw Money</h3>
-                <p>Withdraw your earnings via UPI, Paytm, or bank transfer.</p>
+                
+                <h3>Withdraw your earnings via UPI, Paytm, or bank transfer.</h3>
             </div>
         </div>
     </section>
@@ -84,10 +89,12 @@
     <section id="why-choose" class="section">
         <h2 class="fade-up" style="padding-bottom: 16px;">Why Choose FlowCash?</h2>
         <ul class="benefits">
-            <li class="fade-up" style="padding-bottom: 16px;"><strong>✔ Highest Cashback Rates:</strong> Get the best cashback on your favorite brands.</li>
-            <li class="fade-up" style="padding-bottom: 16px;"><strong>✔ Instant Withdrawals:</strong> No long waits. Withdraw cashback anytime.</li>
-            <li class="fade-up" style="padding-bottom: 16px;"><strong>✔ 100% Free:</strong> No hidden charges or fees.</li>
-            <li class="fade-up" style="padding-bottom: 16px;"><strong>✔ Trusted by Thousands:</strong> Join our growing community of happy users.</li>
+            <img src="clip-confused-person-cartoon-38-removebg-preview.png" alt="Screenshot 1" class="fade-up" style="width: 300px; height: auto;">
+
+            <h3 class="fade-up" style="padding-bottom: 16px;"><strong>✔ Highest Cashback Rates:</strong> Get the best cashback on your favorite brands.</h3>
+            <h3 class="fade-up" style="padding-bottom: 16px;"><strong>✔ Instant Withdrawals:</strong> No long waits. Withdraw cashback anytime.</h3>
+            <h3 class="fade-up" style="padding-bottom: 16px;"><strong>✔ 100% Free:</strong> No hidden charges or fees.</h3>
+            <h3 class="fade-up" style="padding-bottom: 16px;"><strong>✔ Trusted by Thousands:</strong> Join our growing community of happy users.</h3>
         </ul>
     </section>
 
@@ -95,38 +102,22 @@
     <section id="screenshots" class="section">
         <h2 class="fade-up" style="padding-bottom: 16px;">App Screenshots</h2>
         <div class="gallery">
-            <img src="EXPLORE_AMAZING_DEALS-removebg-preview.png" alt="Screenshot 1" class="fade-up">
-            <img src="EXPLORE_AMAZING_DEALS_1_-removebg-preview.png" alt="Screenshot 2" class="fade-up">
-            <img src="EXPLORE_AMAZING_DEALS_2_-removebg-preview.png" alt="Screenshot 3" class="fade-up">
+            <img src="EXPLORE AMAZING DEALS.png" alt="Screenshot 1" style="width: 300px; height: auto;" class="fade-up">
+            <img src="EXPLORE AMAZING DEALS(1)(1).png" alt="Screenshot 2" style="width: 300px; height: auto;" class="fade-up">
+            <img src="EXPLORE AMAZING DEALS(2).png" alt="Screenshot 3" style="width: 300px; height: auto;" class="fade-up">
         </div>
     </section>
 
     <!-- Download Section -->
     <section id="download" class="section">
         <h2 class="fade-up" style="padding-bottom: 16px;">Download FlowCash</h2>
-        <p class="fade-up" style="padding-bottom: 28px;">Start earning cashback on every purchase today!</p>
+        <h3 class="fade-up" style="padding-bottom: 28px;">Start earning cashback on every purchase today!</h3>
         <a href="#" class="btn">Get the App</a>
     </section>
 
     <footer>
         <p>© 2025 FlowCash. All rights reserved.</p>
+        <p>Support: <a href="mailto:support@flowcash.com" style="color: #ffcd69;">support@flowcash.com</a></p>
     </footer>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const fadeElements = document.querySelectorAll(".fade-up");
-
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("visible");
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.5 });
-
-            fadeElements.forEach((element) => observer.observe(element));
-        });
-    </script>
 </body>
 </html>
